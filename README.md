@@ -1,5 +1,7 @@
 # sapper-template
 
+Issue: https://github.com/sveltejs/sapper/issues/835
+
 A repro for a bug where `preload`s in `_layout.svelte` files fire too eagerly -- that is, they are needlessly marked as dirty.  Steps to repro:
 
 - `git clone`
