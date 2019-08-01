@@ -22,3 +22,5 @@ Actual console output:
 `/one/two/_layout.svelte preload fired`
 
 Note that (correctly) no preloads are fired when you navigate from `/one/two` to `/one`
+
+Potentially helpful aside: if you remove return {} from preload in `_layout.svelte`, route preloads are always marked as dirty.  This could be considered a different bug, but I think it's closely related.
