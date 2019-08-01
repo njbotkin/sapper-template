@@ -1,3 +1,10 @@
+<script context="module">
+	export function preload() {
+		console.log('/_layout.svelte preload fired')
+		return {}
+	}
+</script>
+
 <script>
 	import Nav from '../components/Nav.svelte';
 
