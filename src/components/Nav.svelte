@@ -52,7 +52,6 @@
 	<ul>
 		<li><a href='/'>home</a></li>
 		<li><a href='/one'>one</a></li>
-		<li><a href='/one/ohai'>one/[route]</a></li>
 		<li><a href='/one/two'>one/two</a></li>
 		<li><a href='/one/two/ohai'>one/two/[route]</a></li>
 	</ul>
